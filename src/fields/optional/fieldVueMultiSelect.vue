@@ -76,7 +76,7 @@
 			addTag(newTag, id) {
 				let onNewTag = this.selectOptions.onNewTag;
 				if (typeof(onNewTag) == "function") {
-					onNewTag(newTag, id, this.options, this.value);
+					onNewTag(newTag, id, this.options, 123);
 				}
 			},
 			onSearchChange(searchQuery, id) {
